@@ -1,0 +1,32 @@
+
+{
+    "vpay01App": {
+        "productType" : {
+            "home": {
+                "title": "Product Types",
+                "createLabel": "Create a new Product Type",
+                "createOrEditLabel": "Create or edit a Product Type",
+                "search": "Search for Product Type"
+            },
+            "created": "A new Product Type is created with identifier {{ param }}",
+            "updated": "A Product Type is updated with identifier {{ param }}",
+            "deleted": "A Product Type is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Product Type {{ id }}?"
+            },
+            "detail": {
+                "title": "Product Type"
+            },
+            "productTypeCode": "Product Type Code",
+            "productTypeName": "Product Type Name",
+            "productTypeDesc": "Product Type Desc",
+            "productUDF1": "Product UDF 1",
+            "productUDF2": "Product UDF 2",
+            "productUDF3": "Product UDF 3",
+            "productType": "Product Type",
+            "productType": "Product Type",
+            "productType": "Product Type",
+            "productType": "Product Type"
+        }
+    }
+}
