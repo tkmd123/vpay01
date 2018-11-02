@@ -41,6 +41,25 @@ public class CacheConfiguration {
             cm.createCache(vn.vpay.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(vn.vpay.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(vn.vpay.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(vn.vpay.domain.ProductType.class.getName(), jcacheConfiguration);
+            cm.createCache(vn.vpay.domain.ProductType.class.getName() + ".productTypes", jcacheConfiguration);
+            cm.createCache(vn.vpay.domain.Product.class.getName(), jcacheConfiguration);
+            cm.createCache(vn.vpay.domain.Partner.class.getName(), jcacheConfiguration);
+            cm.createCache(vn.vpay.domain.Partner.class.getName() + ".partners", jcacheConfiguration);
+            cm.createCache(vn.vpay.domain.PayPartner.class.getName(), jcacheConfiguration);
+            cm.createCache(vn.vpay.domain.PayPartner.class.getName() + ".payPartners", jcacheConfiguration);
+            cm.createCache(vn.vpay.domain.WalletTransactionType.class.getName(), jcacheConfiguration);
+            cm.createCache(vn.vpay.domain.WalletTransactionType.class.getName() + ".walletTransTypes", jcacheConfiguration);
+            cm.createCache(vn.vpay.domain.Wallet.class.getName(), jcacheConfiguration);
+            cm.createCache(vn.vpay.domain.Wallet.class.getName() + ".wallets", jcacheConfiguration);
+            cm.createCache(vn.vpay.domain.WalletRule.class.getName(), jcacheConfiguration);
+            cm.createCache(vn.vpay.domain.WalletRule.class.getName() + ".walletRules", jcacheConfiguration);
+            cm.createCache(vn.vpay.domain.WalletRuleRate.class.getName(), jcacheConfiguration);
+            cm.createCache(vn.vpay.domain.WalletTransaction.class.getName(), jcacheConfiguration);
+            cm.createCache(vn.vpay.domain.WalletTransaction.class.getName() + ".walletTransactions", jcacheConfiguration);
+            cm.createCache(vn.vpay.domain.PartnerTransaction.class.getName(), jcacheConfiguration);
+            cm.createCache(vn.vpay.domain.PayPartnerLog.class.getName(), jcacheConfiguration);
+            cm.createCache(vn.vpay.domain.PartnerLog.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }

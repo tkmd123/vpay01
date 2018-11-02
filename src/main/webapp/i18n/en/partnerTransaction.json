@@ -1,0 +1,32 @@
+
+{
+    "vpay01App": {
+        "partnerTransaction" : {
+            "home": {
+                "title": "Partner Transactions",
+                "createLabel": "Create a new Partner Transaction",
+                "createOrEditLabel": "Create or edit a Partner Transaction",
+                "search": "Search for Partner Transaction"
+            },
+            "created": "A new Partner Transaction is created with identifier {{ param }}",
+            "updated": "A Partner Transaction is updated with identifier {{ param }}",
+            "deleted": "A Partner Transaction is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Partner Transaction {{ id }}?"
+            },
+            "detail": {
+                "title": "Partner Transaction"
+            },
+            "partnerTransAmount": "Partner Trans Amount",
+            "partnerTransDate": "Partner Trans Date",
+            "partnerTransRef": "Partner Trans Ref",
+            "partnerTransUsername": "Partner Trans Username",
+            "partnerTransUDF1": "Partner Trans UDF 1",
+            "partnerTransUDF2": "Partner Trans UDF 2",
+            "partnerTransUDF3": "Partner Trans UDF 3",
+            "productType": "Product Type",
+            "partner": "Partner",
+            "walletTransaction": "Wallet Transaction"
+        }
+    }
+}
