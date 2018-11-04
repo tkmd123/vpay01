@@ -1,0 +1,64 @@
+{
+    "name": "ProductItem",
+    "fields": [
+        {
+            "fieldName": "productItemCode",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "productItemName",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "productItemValue",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "productItemDesc",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "productItemUDF1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "productItemUDF2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "productItemUDF3",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isDeleted",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipName": "product",
+            "otherEntityName": "product",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20181104063431",
+    "javadoc": "Product: VN: 50k, VN: 100k\nVT: 50k, VT: 100k",
+    "entityTableName": "product_item",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}
