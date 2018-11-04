@@ -18,7 +18,7 @@ import java.util.Objects;
 @Table(name = "wallet_rule_rate")
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 @Document(indexName = "walletrulerate")
-public class WalletRuleRate implements Serializable {
+public class WalletRuleRate extends AbstractAuditingEntity implements Serializable {
 
     private static final long serialVersionUID = 1L;
 

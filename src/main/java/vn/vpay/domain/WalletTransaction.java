@@ -22,7 +22,7 @@ import java.util.Objects;
 @Table(name = "wallet_transaction")
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 @Document(indexName = "wallettransaction")
-public class WalletTransaction implements Serializable {
+public class WalletTransaction extends AbstractAuditingEntity implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
